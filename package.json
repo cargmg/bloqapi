@@ -1,0 +1,33 @@
+{
+  "name": "my-bloq-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "serve": "node dist/index.js",
+    "test": "jest --passWithNoTests"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.1.1",
+    "@types/mongodb": "^4.0.7",
+    "@types/node": "^20.12.8",
+    "@types/uuid": "^9.0.8",
+    "express": "^4.19.2",
+    "ts-jest": "^29.0.3",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@types/express-validator": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "express-validator": "^7.0.1",
+    "mongodb": "^6.6.1",
+    "moq.ts": "^10.0.8",
+    "rsdi": "^2.1.0",
+    "uuid": "^9.0.1"
+  }
+}
